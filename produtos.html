@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gremio Mania</title>
+    <style>
+         header>nav>a:hover{
+            color: blue;
+        }
+
+        .menu-selecionado{
+            text-decoration: underline;
+            color: blue;
+        }
+
+        header>nav>a{
+            text-decoration: none;
+            color: black;
+        }
+
+        header{
+            border:solid 2px blue;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        main{
+            border: solid 2px blue;
+            background-color: grey;
+        }
+
+        footer{
+            border:solid 2px blue;
+        }
+
+        main>div{
+            border: solid 2px black;
+        }
+
+        .lista-produtos{
+            display: flex ;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+
+        .lista-produtos>div{
+            border:solid 2px black;
+            width: 20%;
+        }
+
+        .lista-produtos>div>h5{
+            background-color: lightblue;
+        }
+
+        .lista-produtos>div>img{
+            display: flex;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h2>A Loja Oficial do Tricolor</h2>
+        <img src="imagens/gremiomania.svg" alt="">
+
+        <nav>
+            <a href="index.html">Inicial</a> /
+            <a href="quemsomos.html">Quem Somos?</a> /
+            <a href="lista.html">Lista de Produtos</a> /
+            <a href="formularios.html">Formulário</a> /
+            <a class="menu-selecionado" href="produtos.html">Produtos</a>
+        </nav>
+
+    </header>
+
+    <hr />
+
+    <main>
+
+        <h3>Produtos</h3>
+
+        <section class="lista-produtos">
+
+            <div>
+                <div>
+
+                </div>
+                    <img src="imagens/camiseta gremio.jpg"  alt="Gremio">
+                <div>
+
+                </div>
+                    <h4>Produto 01</h4>
+                    <p>texto produto 1</p>
+                    <h5>R$99,99</h5>
+                </div>
+            </div>
+
+            <div>
+                <h4>Produto 02</h4>
+                <p>texto produto 2</p>
+                <h5>R$99,99</h5>
+            </div>
+
+            <div>
+                <h4>Produto 03</h4>
+                <p>texto produto 3</p>
+                <h5>R$99,99</h5>
+            </div>
+
+            <div>
+                <h4>Produto 04</h4>
+                <p>texto produto 4</p>
+                <h5>R$99,99</h5>
+            </div>
+
+        </section>
+    </main>
+        
+</body>
+
+    <hr />
+
+    <footer>
+
+    </footer>

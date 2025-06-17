@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gremio Mania</title>
+</head>
+
+<body>
+
+    <header style="border:solid 2px blue;">
+        <img src="imagens/gremiomania.svg" alt="">
+        <h2>A Loja Oficial do Tricolor</h2>
+
+        <nav>
+            <a href="index.html">Inicial</a>
+            <a href="quemsomos.html">Quem Somos?</a>
+            <a href="lista.html">Lista de Produtos</a>
+            <a href="formularios.html">Formulário</a>
+        </nav>
+
+    </header>
+
+    <hr />
+
+    <main style="border:solid 2px blue;">
+        <h1>Formulário:</h1>
+        <form>
+
+            <div>
+
+                <label for="txt-nome">Login:</label>
+                <input type="text" id="txt-nome" />
+
+            </div>
+
+            <div>
+
+                <label for="txt-pwd">Senha:</label>
+                <input type="password" id="txt-pwd" />
+
+            </div>
+
+            <div>
+
+                <label for="dt-compra">Data de Compra:</label>
+                <input type="date" id="dt-compra" />
+
+            </div>
+
+            <div>
+
+                <label for="nm-quantidade">Quantidade:</label>
+                <input type="number" id="nm-quantidade" />
+
+            </div>
+
+            <div>
+
+                <label for="ch-notificações">Deseja Receber Notificações?:</label>
+                <input type="checkbox" id="ch-notificações" />
+
+            </div>
+
+            <div>
+
+                <fieldset>
+                    <legend>Tamanho:</legend>
+                    <label for="rd-tipo"></label>
+
+                    <label for="rd-tipo-p">P:</label>
+                    <input type="radio" id="rd-tipo-p" name="rd-tipo" />
+
+                    <label for="rd-tipo-m">M:</label>
+                    <input type="radio" id="rd-tipo-m" name="rd-tipo" />
+
+                    <label for="rd-tipo-g">G:</label>
+                    <input type="radio" id="rd-tipo-g" name="rd-tipo" />
+
+                    <label for="rd-tipo-gg">GG:</label>
+                    <input type="radio" id="rd-tipo-gg" name="rd-tipo" />
+                </fieldset>
+
+            </div>
+
+            <div>
+                <label for="sl-uf">Estado:</label>
+                <select id="sl-uf">
+                    <option value="PR">Paraná</option>
+                    <option value="SC">Santa Catarina</option>
+                    <option value="RS">Rio Grande Do sul</option>
+                </select>
+
+            </div>
+
+            <div>
+
+                <label for="nm-cep">CEP:</label>
+                <input type="number" id="nm-cep" />
+
+            </div>
+
+            <div>
+
+                <fieldset>
+                    <legend>Preferência de dia para chegada:</legend>
+                    <label for="ch-dia"></label>
+
+                    <label for="ch-dia-seg">Segunda-Feira</label>
+                    <input type="checkbox" id="rd-dia-seg" />
+
+                    <label for="ch-tipo-ter">Terça-Feira</label>
+                    <input type="checkbox" id="rd-dia-ter" />
+
+                    <label for="ch-tipo-qua">Quarta-Feira</label>
+                    <input type="checkbox" id="rd-dia-qua" />
+
+                    <label for="ch-tipo-qui">Quinta-Feira</label>
+                    <input type="checkbox" id="ch-dia-qui" />
+
+                    <label for="ch-tipo-sex">Sexta-Feira</label>
+                    <input type="checkbox" id="ch-dia-sex" />
+                </fieldset>
+
+            </div>
+
+            <div>
+                <label for="bt-finalizar">Finalizar:</label>
+                <input type="button" value="enviar" id="bt-finalizar" />
+
+            </div>
+
+            <div>
+                <textarea id="message" rows="4" cols="15">
+                Pedido em análise...
+                </textarea>
+            </div>
+
+        </form>
+
+    </main>
+
+    <hr />
+
+    <footer style="border:solid 2px blue;">
+
+    </footer>
